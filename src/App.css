@@ -1,0 +1,82 @@
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(107, 170, 124, 0.705);
+  height:60px;
+  display: flex;
+  width: 100%;
+}
+
+
+.topnav input[type=text] {
+
+  float: centre;
+  padding: 10px;
+  margin-bottom: 3px;
+  margin-top: 8px;
+  margin-right: px;
+  border: rgb(69, 194, 113);
+  font-size: 17px;
+  margin-left:600px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav input[type=text] {
+    float: none;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #bb1d1d;  
+  }
+}
+.btn{
+  height: 50px;
+  padding: 10px 25px;
+    transition-duration:0.4s;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: #04AA6D; 
+  color: white;
+}
+.carousel{
+  margin-top: 100px;
+  width: 600px;
+  height: 100px;
+}
+
+/* vellalore card */
+
+.veltable{
+ margin-top: 200px;
+}
+
+.velcard{
+   margin-left: 150px;
+   color: black;
+}
+
+.lgcard{
+  margin-left: 150px;
+  color: black;
+
+}
+.carousel{
+  margin-left: 230px;
+}
+.home{
+  background-image: url("https://cdn2.vectorstock.com/i/1000x1000/06/41/shop-store-with-windows-greenery-lanterns-vector-14190641.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
